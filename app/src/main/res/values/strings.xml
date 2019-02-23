@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BusinessInfo</string>
+    <string name="company_name">Dogão</string>
+    <string name="address">Praça Central</string>
+    <string name="phone">(43) 9998-1234</string>
+    <string name="price">10 R$</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="item1">pão</string>
+    <string name="item2">batata</string>
+    <string name="item3">tomate</string>
+    <string name="item4">carne moida</string>
+    <string name="item5">cebola</string>
+</resources>

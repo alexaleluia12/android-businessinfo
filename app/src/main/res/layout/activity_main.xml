@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efefef"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/hotdog"
+            android:scaleType="centerCrop"
+            android:paddingTop="40dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/company_name"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:paddingTop="4dp"
+            android:textColor="@color/colorPrimary"
+            />
+
+        <TextView
+            android:drawableLeft="@drawable/ic_home"
+            android:drawableStart="@drawable/ic_home"
+            android:text="@string/address"
+            style="@style/ContentDescription" />
+
+        <TextView
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawableStart="@drawable/ic_phone"
+            android:text="@string/phone"
+            style="@style/ContentDescription"
+            />
+
+        <TextView
+            android:drawableStart="@drawable/ic_money"
+            android:drawableLeft="@drawable/ic_money"
+            android:text="@string/price"
+            style="@style/ContentDescription" />
+
+        <TextView
+            android:drawableLeft="@drawable/ic_ingredientes"
+            android:drawableStart="@drawable/ic_ingredientes"
+            android:text="@string/ingredientes"
+            android:paddingBottom="8dp"
+            style="@style/ContentDescription"/>
+
+        <TextView
+            android:text="@string/item1"
+            style="@style/IngredienteItem" />
+        <TextView
+            android:text="@string/item2"
+            style="@style/IngredienteItem" />
+        <TextView
+            android:text="@string/item3"
+            style="@style/IngredienteItem" />
+        <TextView
+            android:text="@string/item4"
+            style="@style/IngredienteItem" />
+        <TextView
+            android:text="@string/item5"
+            style="@style/IngredienteItem" />
+
+
+    </LinearLayout>
+
+</ScrollView>
